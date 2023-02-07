@@ -8,7 +8,8 @@ Go to the [Julia website](https://julialang.org/downloads/) and download/install
 
 After installing, launch the Julia application.  You should see a terminal/REPL open that shows the Julia logo.
 Type the following lines (one by one or all together) and press enter:
-```using Pkg
+```
+using Pkg
 Pkg.add("Plots") # only needs to be done once
 Pkg.add("StatsPlots") # only needs to be done once
 Pkg.add("DelimitedFiles") # only needs to be done once
