@@ -1,11 +1,13 @@
-# NREL_Activity
+# Visualizing Your Data
+The purpose of this activity is to get you thinking about visualization and to help you set up your computer so you can create your own visualizations!  I will be adding all resources necessary for the activity in this repository.
+## Setup
+### Install Julia
+Go to the [Julia website](https://julialang.org/downloads/) and download/install the stable release (v1.8) for your operating system.
 
-## Install Julia
-Go to the [Julia website](https://julialang.org/downloads/) and download/install the stable release (v1.8).
+### Setup Julia Environment
 
-## Setup Julia
-
-After installing, launch the Julia application.  You should see a terminal/REPL open that shows the Julia logo, and type the following lines:
+After installing, launch the Julia application.  You should see a terminal/REPL open that shows the Julia logo.
+Type the following lines (one by one or all together) and press enter:
 ```using Pkg
 Pkg.add("Plots") # only needs to be done once
 Pkg.add("StatsPlots") # only needs to be done once
@@ -19,4 +21,5 @@ To check that the `Plots.jl` package installed successfully you can type `plot(r
 
 If you want to explore more before we meet, I recommend trying some of the examples and tutorials from [Plots.jl](https://docs.juliaplots.org/stable/) or [StatsPlots.jl](https://github.com/JuliaPlots/StatsPlots.jl).  
 
-Please don't hesitate to reach out to me if you have any questions or if something is not working for you!
+If you have any trouble or any errors come up for you throughout this, let me know! I am here to help.
+
