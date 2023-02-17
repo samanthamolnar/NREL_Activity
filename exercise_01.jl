@@ -12,13 +12,17 @@ y(x) = 2*x + 5 # try changing the numbers!
 
 y(xs)
 
-# the reason ^ gives an error is because "xs" is an array, so our function needs to be [broadcasted] to the entire array
+# the reason ^ gives an error is because "xs" is an list of values instead of a single value
+# this means our function needs to be [broadcasted] to the entire list. 
 
-# enter the following, this should work!
+# enter the following, adding a "." to the end of the function will tell it to apply the function to each value of the list
 
 y.(xs)
 
 
-# now let's plot the relationship
+# now let's plot the relationship!
 
 plot(xs,y.(xs),label="my fun line")
+
+# you'll notice that our plot has some components pre made for us like the axes, and a legend. 
+# we will explore how to customize these elements, and add others in the next few exercises
