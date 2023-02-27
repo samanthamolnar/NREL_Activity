@@ -1,4 +1,4 @@
-using HTTP, CSV, DataFrames, Statistics
+using HTTP, CSV, DataFrames, Statistics, Plots
 data = CSV.read(HTTP.get("https://raw.githubusercontent.com/samanthamolnar/NREL_Activity/main/sample_data.csv").body,DataFrame)
 mean.(eachcol(data))
 var.(eachcol(data))
